@@ -28,7 +28,17 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<style>
+		body::-webkit-scrollbar {
+  			display: none;
+		}
+		.skills-image {
+    max-width: 70%; /* or any other percentage or fixed size you prefer */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* to apply the margin */
+    margin: 0 auto; /* to center the image within its container */
+}
+	</style>
 	</head>
 	<body>
 		
@@ -42,7 +52,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<div class="profile-thumb" style="background: url(images/user3.jpeg);"></div>
 							<h1><span>Ujjwal Pathak</span></h1>
 							<div id="typing-text">
 								<p>
@@ -50,10 +60,11 @@
 								</p>
 							</div>
 							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://github.com/ujjwalpathaak?tab=repositories"><i class="icon-github2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/ujjwalpathaak/"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://www.instagram.com/ujjwalpathaak/?next=%2F"><i class="icon-instagram2"></i></a></li>
+								<ul class="fh5co-social-icons" style="display: flex; justify-content: center;">
+									<li style="width: 50px; height: 50px; display: flex;"><a style="width: 50px;" href="https://github.com/ujjwalpathaak?tab=repositories"><i class="icon-github2"></i></a></li>
+									<li style="width: 50px; height: 50px; display: flex;"><a style="width: 50px;" href="https://www.linkedin.com/in/ujjwalpathaak/"><i class="icon-linkedin2"></i></a></li>
+									<li style="width: 50px; height: 50px; display: flex;"><a style="width: 50px;" href="https://www.instagram.com/ujjwalpathaak/?next=%2F"><i class="icon-instagram2"></i></a></li>
+									<li style="width: 50px; height: 50px; display: flex;"><a style="width: 50px; display: flex; align-items: flex-start;" href="https://leetcode.com/MonikaLisa2010/"><img style="width: 35px;" src="./images/leetcode.png" /></a></li>
 								</ul>
 							</p>
 						</div>
@@ -69,27 +80,19 @@
 				
 				<div class="col-md-12">
 					<h2>Hello There!</h2>
-					<p>Full Stack Developer in 📍India. 👨🏻‍💻Computer Science undergrad at
-						Jaypee University of Information Technology, Solan. I'm passionate
-						about cutting-edge, pixel-perfext, beautiful interfaces and
-						intuitively implemented UX and I like to 🛠️create things which leave
-						a long lasting impression. I also like to play 🏸badminton and 📺
-						watch Anime Itachi FTW.</p>
-					<p style="color: #ff0707;">“Difficult? Great! You were anyway not made to play small. Go
-						crush it.” ― Hiral Nagda</p>
+					<p>A Full Stack Developer 🖥️ based in 📍 India. Currently, I'm studying Computer Science at Jaypee University of Information Technology, Solan. I'm passionate about designing 👨🏻‍💻 seamless interfaces complemented by backend systems, ensuring an intuitive and seamless user experience. When I am not on my laptop, you can find me watching car 🚗 reviews.</p>
+					<!-- <p style="color: #ff0707;">Crafting digital experiences, one pixel at a time</p> -->
 					</div>
-					<div class="col-md-12">
-						<ul class="info">
-							<li><span class="first-block">Phone:</span><span class="second-block">+91-8448772593</span></li>
-							<li><span class="first-block">Email:</span><span class="second-block">pathak2002ujjwal@gmail.com</span></li>
-							<li><span class="first-block">Address:</span><span class="second-block">Noida, India</span></li>
-						</ul>
+					<div class="info-contact"  style="padding: 0px 15px 0px 15px;">
+							<span style="font-weight: bolder;">Phone: <span style="font-weight: normal;">+91-8448772593</span></span>
+							<span style="font-weight: bolder;">Email: <span style="font-weight: normal;">pathak2002ujjwal@gmail.com</span></span>
+							<span style="font-weight: bolder;">Address: <span style="font-weight: normal;">Noida, India</span></span>
 					</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- <div id="fh5co-resume" class="fh5co-bg-color">
+	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -106,15 +109,16 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Senior Developer</h3>
-									<span class="company">Company Name - 2016 - Current</span>
+									<h3 class="timeline-title">Full-Stack Developer Intern</h3>
+									<span style="display: block" style="font-size: large;">Exponance Twirltree LLP</span>
+									<span style="display: block">Jun 2023 - Jul 2023</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<!-- <li class="timeline-inverted animate-box">
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -137,7 +141,7 @@
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 								</div>
 							</div>
-						</li>
+						</li> -->
 
 						<br>
 						<li class="timeline-heading text-center animate-box">
@@ -147,15 +151,16 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Masters Degree</h3>
-									<span class="company">University Name - 2007 - 2009</span>
+									<h3 class="timeline-title">Bachelor's degree</h3>
+									<span style="display: block" style="font-size: large;">Jaypee University of Information Technology</span>
+									<span style="display: block">September 2021 - June 2025</span>
 								</div>
-								<div class="timeline-body">
+								<!-- <div class="timeline-body">
 									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
+								</div> -->
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<!-- <li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -172,23 +177,24 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Diploma Course</h3>
-									<span class="company">College Name - 1999 - 2001</span>
+									<span class="com pany">College Name - 1999 - 2001</span>
 								</div>
 								<div class="timeline-body">
 									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
-						</li>
+						</li> -->
 						<li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Graduation</h3>
-									<span class="company">College Name - 1994 - 1998</span>
+									<h3 class="timeline-title">Senior Secoudary</h3>
+									<span style="display: block" style="font-size: large;">Mayoor School, Noida</span>
+									<span style="display: block">March 2020 - July 2021</span>
 								</div>
-								<div class="timeline-body">
+								<!-- <div class="timeline-body">
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
+								</div> -->
 							</div>
 						</li>
 			    	</ul>
@@ -286,54 +292,9 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Skills</h2>
-				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/cpp.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/express.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/js.png"></img></div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/mongodb.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/nodejs.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/postman.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/react.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/reactnative.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/redux.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/socket"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/webrtc.png"></img></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/github.png"></img></div>
-				</div>
-			</div>
+	
 			<!-- <div class="row">
 				<div class="col-md-6">
 					<div class="progress-wrap">
@@ -403,10 +364,59 @@
 						</div>
 					</div>
 				</div> -->
-			</div>
-		</div>
-	</div>
 
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="skill-div">
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/cpp.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/js.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/typescript.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/nexxt.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/nodejs.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/postman.png"></img></div>
+				</div>
+
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/mongodb.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/docker.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/tailwind.png"></img></div>
+				</div>
+				<!-- <div class=" text-center">
+					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/reactnative.png"></img></div>
+				</div> -->
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/redux.png"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/socket"></img></div>
+				</div>
+				<div class=" text-center">
+					<div class="chart" ><img class="skills-image" src="./images/skills/webrtc.png"></img></div>
+				</div>
+				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="100"><img class="skills-image" src="./images/skills/github.png"></img></div>
+				</div> -->
+			</div>
 	<div id="fh5co-work" class="fh5co-bg-dark">
 		<div class="container">
 			<div class="row animate-box">
@@ -416,11 +426,33 @@
 			</div>
 			<div class="row">
 				<div class="project col-md-6 text-center col-padding animate-box">
+					<a href="https://interviewlabs.netlify.app/" class="work" style="background-image: url(images/pintastic.png);">
+						<div class="desc">
+							<h3>Pintastic</h3>
+<span>A pin-sharing platform. Enabled users to add, like, and save pins. Integrated user authentication using NextAuth.js and Zustand. Deployed on Firebase and added a Chrome Extension for easy external content addition.</span>
+<span>Next.js, TypeScript, NextAuth.js, Zustand, Firebase, Chrome Extension</span>
+
+						</div>
+						<!-- <a  href="https://github.com/ujjwalpathaak/Twaddle-client">Github</a> -->
+					</a>
+				</div>
+				<div class="project col-md-6 text-center col-padding animate-box">
 					<a href="https://interviewlabs.netlify.app/" class="work" style="background-image: url(images/interviewlabs-project.png);">
 						<div class="desc">
-							<h3>interviewlabs</h3>
+							<h3>Interviewlabs</h3>
 							<span>Developed a real-time based interview taking platform where interviewer and interviewee could make rooms to conduct interviews. Added online C++ compiler and real-time video calling functionality using WebRTC</span>
 							<span>ReactJS, ExpressJS, Redux, WebRTC, Socket.io</span>
+						</div>
+						<!-- <a  href="https://github.com/ujjwalpathaak/Twaddle-client">Github</a> -->
+					</a>
+				</div>
+				<div class="project col-md-6 text-center col-padding animate-box">
+					<a href="https://interviewlabs.netlify.app/" class="work" style="background-image: url(images/weather-project.png);">
+						<div class="desc">
+							<h3>JUIT Webkiosk API</h3>
+<span>A REST API to fetch student data from JUIT servers. Used request-promise for HTTPS requests and allowed fetching of attendance, grades, and more from the WebKiosk site. Utilized Node.js, Express.js, and Cheerio for development and data parsing.</span>
+<span>Node.js, Express.js, request-promise, Cheerio, HTTPS</span>
+
 						</div>
 						<!-- <a  href="https://github.com/ujjwalpathaak/Twaddle-client">Github</a> -->
 					</a>
@@ -443,47 +475,16 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 text-center col-padding animate-box">
-					<a href="https://github.com/ujjwalpathaak/Sudoku_Solver" class="work" style="background-image: url(images/sudoku-project.png);">
+				<div class="project col-md-6 text-center col-padding animate-box">
+					<a href="https://interviewlabs.netlify.app/" class="work" style="background-image: url(images/sudoku-project.png);">
 						<div class="desc">
-							<h3>Sudoku-Solver</h3>
-							<span>Passes API in form of an Array with hashes on the places to be filled according to the question. Then gets back the response in same format and maps the array over the table of 9x9.</span>
-							<span>HTML, CSS, API</span>
+							<h3>Sudoku Solver</h3>
+<span>An interactive tool for solving Sudoku puzzles. Leveraged JavaScript to automatically complete the board and provided a user-friendly HTML interface for easy puzzle input and solution visualization.</span>
+<span>JavaScript, HTML, API Development</span>
+
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/ecommerce-frontend-project.png);">
-						<div class="desc">
-							<h3>AirJCart</h3>
-							<span>Made an eCommerce website's Homepage, catalog and items page with all x36 pairs of Nike Jordons.</span>
-							<span>ReactJs</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-6 text-center col-padding animate-box">
-					<a href="https://github.com/ujjwalpathaak/Weather.io---WebApp" class="work" style="background-image: url(images/weather-project.png);">
-						<div class="desc">
-							<h3>Weather.io</h3>
-							<span>This website is made to understand and learn Backend Development. I used Backend to call and API and then Parse it using EJS.</span>
-							<span>HTML, CSS, Node.js, Express.js, EJS</span>
-						</div>
-					</a>
-				</div>
-				<!-- <div class="col-md-6 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-6 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div> -->
 					</a>
 				</div>
 			</div>
@@ -561,23 +562,8 @@
 		</div>
 	</div> -->
 
-	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="display: flex; justify-content: center;">
-			<!-- <div class="overlay"></div> -->
-			<!-- <object
-        data='https://drive.google.com/uc?export=view&id=1xZBAhIrByTecKeXH3TiQh2VCERQiGvjn'
-        type="application/pdf"
-        width="500"
-        height="678"> -->
-        <iframe
-          src='https://drive.google.com/uc?export=view&id=1xZBAhIrByTecKeXH3TiQh2VCERQiGvjn'
-          width="500"
-          height="678"
-        >
-        <p>This browser does not support PDF!</p>
-        </iframe>
-      <!-- </object> -->
-		</div>
+	<div id="fh5co-consult" style="display: flex; justify-content: center;">
+		
 		<div class="choose animate-box">
 			<h2>Contact</h2>
 			<form action="#">
